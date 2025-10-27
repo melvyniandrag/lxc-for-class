@@ -29,3 +29,6 @@ When the student tries to login as student over ssh, it allows password auth and
 
 ## ssh-into-lxd.sh
 launches an ephemeral linux vm using the teaching profile we created before, and gives the student a login shell.
+
+Note! Have seen some crashing when using debian as the vm image probably because its a) too big and I'm b) create a droplet that was too small.
+Consider using a lighter distro like alpine for the container along with a beefier droplet for better performance.
