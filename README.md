@@ -19,8 +19,9 @@ Then
 1. add the line to the bottom of `/root/.bashrc`
 1. `source $HOME/.bashrc`
 1. copy `01-lxc.conf` to `/etc/ssh/sshd_config.d`
-1. `lxc create profile teaching`
-1. `lxc edit profile teaching < teaching.yaml`
+1. `lxc profile create teaching`
+1. TODO something with networking
+1. `lxc profile edit teaching < teaching.yaml`
 1. `systemctl restart sshd`
 
 ## teaching.yaml
