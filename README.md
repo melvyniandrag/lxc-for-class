@@ -15,6 +15,7 @@ rootdroplet$ passwd student #set the student password
 
 Then 
 1. copy `ssh-into-lxd.sh` to `/usr/local/bin`
+1. `chmod 777 /usr/local/bin/ssh-into-lxd.sh`
 1. add the line to the bottom of `/root/.bashrc`
 1. `source $HOME/.bashrc`
 1. copy `01-lxc.conf` to `/etc/ssh/sshd_config.d`
