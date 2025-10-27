@@ -4,6 +4,10 @@ Heres a way to configure a single digital ocean machine so that students can log
 I could alternatively set up a droplet for each student, but this can take a long time in class if there are 20-30 students.
 Thisway, I create one droplet and every student can use it.
 
+## errors!
+I have seen an error the first time I try to ssh in as student, it says images: remote not found. On the next ssh attempt, it works.
+Will need to test further.
+
 ## add user
 on the droplet 
 ```
