@@ -8,7 +8,7 @@ Thisway, I create one droplet and every student can use it.
 I have seen an error the first time I try to ssh in as student, it says images: remote not found. On the next ssh attempt, it works.
 Will need to test further.
 
-## add user
+## configure the droplet
 on the droplet 
 ```
 root@droplet$ apt install lxd
