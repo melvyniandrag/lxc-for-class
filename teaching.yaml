@@ -1,0 +1,14 @@
+config:
+  limits.cpu: "1"
+  limits.memory: 512MB
+  security.nesting: "false"
+description: Profile for ephemeral teaching containers
+devices:
+  eth0:
+    name: eth0
+    network: lxdbr0   # default LXD bridge; change if you want stricter isolation
+    type: nic
+  root:
+    path: /
+    pool: default
+    type: disk
