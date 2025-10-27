@@ -7,7 +7,9 @@ Thisway, I create one droplet and every student can use it.
 ## add user
 on the droplet 
 ```
+root@droplet$ apt install lxd
 root@droplet$ adduser student
+root@droplet$ usermod -aG lxd student
 rootdroplet$ passwd student #set the student password
 ```
 
